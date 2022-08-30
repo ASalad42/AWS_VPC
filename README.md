@@ -22,6 +22,11 @@ Follow the steps in this section to create a VPC. When you create a VPC, you hav
 - VPC, subnets, and other VPC resources: Creates a VPC, subnets, NAT gateways, and VPC endpoints.
 - VPC only: Creates only a VPC without any additional resources like subnets or NAT gateways within the VPC.
 
+The NAT gateway - managed by AWS. simply create the NAT gateway, specify what subnet it should reside in, and associate an Elastic IP address, and AWS will manage all other configuration.
+- A NAT gateway sits within the public subnet.because it sits within the public subnet, it has a route out to the Internet gateway, and to the Internet.
+- NAT gateway takes request, goes via the Internet gateway, and download the appropriate software that's required, and send it back to the EC2 instance requesting it.
+
+
 #### What is CIDR block - how to create 1 - how create CIDR blocks form the VPC CIDR block?
 Classless Inter-Domain Routing (CIDR) notation is a way of representing an IP address and its network mask. The format of these addresses is as follows:
 
