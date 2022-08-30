@@ -6,7 +6,8 @@ VPC with private and public subnets
 
 ![image](https://user-images.githubusercontent.com/104793540/187453805-a0c70218-f378-477b-8675-bb1659d49754.png)
 
-https://docs.aws.amazon.com/vpc/latest/userguide/vpc-subnets-commands-example.html
+https://docs.aws.amazon.com/vpc/latest/userguide/how-it-works.html - How Amazon VPC works
+https://docs.aws.amazon.com/vpc/latest/userguide/vpc-subnets-commands-example.html - Create an IPv4-enabled VPC and subnets using the AWS CLI
 
 Documentation on how create the following AWS resources:
 - A VPC
