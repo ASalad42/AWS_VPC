@@ -15,5 +15,9 @@ Documentation on how create the following AWS resources:
 - A route table
 - An EC2 instance
 
+## Creating VPC
+Follow the steps in this section to create a VPC. When you create a VPC, you have two options:
+- VPC, subnets, and other VPC resources: Creates a VPC, subnets, NAT gateways, and VPC endpoints.
+- VPC only: Creates only a VPC without any additional resources like subnets or NAT gateways within the VPC.
 
 What is CIDR block - how to create 1 - how create CIDR blocks form the VPC CIDR block?
