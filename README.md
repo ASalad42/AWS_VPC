@@ -21,6 +21,10 @@ Follow the steps in this section to create a VPC. When you create a VPC, you hav
 - VPC only: Creates only a VPC without any additional resources like subnets or NAT gateways within the VPC.
 
 #### What is CIDR block - how to create 1 - how create CIDR blocks form the VPC CIDR block?
+Classless Inter-Domain Routing (CIDR) notation is a way of representing an IP address and its network mask. The format of these addresses is as follows:
+
+![image](https://user-images.githubusercontent.com/104793540/187456957-38970773-bfb3-42bd-83ca-8b911905a309.png)
+
 - To create a VPC, subnets, and other VPC resources:
 - open the Amazon VPC console at https://console.aws.amazon.com/vpc/
 - In the navigation pane, choose Your VPCs, Create VPC.
@@ -28,3 +32,7 @@ Follow the steps in this section to create a VPC. When you create a VPC, you hav
 - Modify the options as needed:
 -   **IPv4 CIDR block:** Choose an IPv4 CIDR for the VPC. This option is required.
 -   **IPv6 CIDR block:** Choose an IPv6 CIDR for the VPC.
+
+##### Route tables
+- A route table contains a set of rules, called routes, that are used to determine where network traffic from your VPC is directed. You can explicitly associate a subnet with a particular route table. Otherwise, the subnet is implicitly associated with the main route table.
+- Each route in a route table specifies the range of IP addresses where you want the traffic to go (the destination) and the gateway, network interface, or connection through which to send the traffic (the target).
