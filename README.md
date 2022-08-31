@@ -155,6 +155,7 @@ debugging:
 - `sudo systemctl disable npm.service`
 - `sudo systemctl kill npm.service`
 - `sudo systemctl stop npm.service`
+- `npm start`
 
 without ssh into db you get:
 ![image](https://user-images.githubusercontent.com/104793540/187733267-004faebb-bd57-4d21-8cb8-cf7ce68cb272.png)
