@@ -140,5 +140,21 @@ associate only private subnet with this route table
 ![image](https://user-images.githubusercontent.com/104793540/187683980-b753bb4a-d960-4337-af27-7f4ce42b5c44.png)
 
 launch db in private subnet:
+- use private ip of db ec2 in DB_HOST
+- sudo nano .bashrc 
+- export DB_HOST=mongodb://10.0.12.127:27017/posts
+- printenv DB_HOST
 
+debugging:
+- ps aux 
+- `sudo kill -9 2246`
+- keep changing number at the end 
+- ![image](https://user-images.githubusercontent.com/104793540/187732631-7c4ea0ff-a50c-4eec-a3ff-acc42b1e9a48.png)
+- if persists try: 
+- `sudo systemctl disable npm.service`
+- `sudo systemctl kill npm.service`
+- `sudo systemctl stop npm.service`
+
+without ssh into db you get:
+![image](https://user-images.githubusercontent.com/104793540/187733267-004faebb-bd57-4d21-8cb8-cf7ce68cb272.png)
 
