@@ -61,6 +61,10 @@ stateless vs stateful
 
 REF: https://medium.com/awesome-cloud/aws-difference-between-security-groups-and-network-acls-adc632ea29ae - AWS: Difference between Security Groups and Network Access Control List (NACL)
 
+
+![image](https://user-images.githubusercontent.com/104793540/187665698-67e4fdbc-475d-4fe8-963c-e4c99659ea10.png)
+
+
 ### Step 1 Create a VPC with CIDR block 10.0.0.0/16
 ![image](https://user-images.githubusercontent.com/104793540/187661089-c6fadabf-660d-4186-aa47-b408ac45ed57.png)
 ![image](https://user-images.githubusercontent.com/104793540/187661385-6d3e8c71-3e79-410c-a3cc-dcf255ca1e2e.png)
@@ -89,5 +93,4 @@ installing ig door into plot
 global and local 
 ![image](https://user-images.githubusercontent.com/104793540/187664171-e95fb000-8306-44c5-8932-58104e717a9f.png)
 
-
-
+### Test by deploying app ami 
