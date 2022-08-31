@@ -85,13 +85,18 @@ REF: https://medium.com/awesome-cloud/aws-difference-between-security-groups-and
 ![image](https://user-images.githubusercontent.com/104793540/187662924-4b525eb4-5b0b-4fe1-9d22-c1e627750090.png)
 ![image](https://user-images.githubusercontent.com/104793540/187663022-e4dc7e4b-86cc-4c07-9e54-76eba74dc470.png)
 
+#### 
+security groups with required rules for public subnet to access db
+![image](https://user-images.githubusercontent.com/104793540/187686814-e3ee7cbb-d715-45dc-8039-9d1339f084ed.png)
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/working-with-security-groups.html - Work with security groups
 ### Step 3.2 Create priavte subnet (CIDR: 10.0.1.0/24)
 
 ![image](https://user-images.githubusercontent.com/104793540/187682649-fdf87a18-8310-4b24-b09e-5181f057bc02.png)
 ![image](https://user-images.githubusercontent.com/104793540/187682688-e181cc52-fa9d-4295-b209-2f788fa4ec26.png)
 
 ### Step 4 Create Route Table (& edit rules to add SN)
-Public 
+#### Public 
 
 ![image](https://user-images.githubusercontent.com/104793540/187663422-352e3350-bfe2-4e58-a74f-78d00034bc4f.png)
 ![image](https://user-images.githubusercontent.com/104793540/187663607-a7862d13-a6e3-434a-8f4f-f9ee45c8f8b7.png)
@@ -106,7 +111,7 @@ global and local
 
 ![image](https://user-images.githubusercontent.com/104793540/187664171-e95fb000-8306-44c5-8932-58104e717a9f.png)
 
-Private 
+#### Private 
 
 ![image](https://user-images.githubusercontent.com/104793540/187683242-28fb6117-be28-4f6d-8c02-071e45da3084.png)
 ![image](https://user-images.githubusercontent.com/104793540/187683317-34dedcdc-6ca3-433a-bd3b-953d2923d790.png)
@@ -115,5 +120,8 @@ associate only private subnet with this route table
 
 ![image](https://user-images.githubusercontent.com/104793540/187683909-ee668cea-1520-481a-b94c-0d415f913cc3.png)
 ![image](https://user-images.githubusercontent.com/104793540/187683980-b753bb4a-d960-4337-af27-7f4ce42b5c44.png)
+
+editing rules:
+
 
 ### Test by deploying app ami 
