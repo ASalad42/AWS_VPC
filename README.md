@@ -113,6 +113,11 @@ global and local
 make sure ig route is 0.0.0.0/0
 ![image](https://user-images.githubusercontent.com/104793540/187707771-9f163f24-7814-40db-b5b4-10cf48c2802f.png)
 
+launched app in public subnet:
+![image](https://user-images.githubusercontent.com/104793540/187709974-374b65f4-1e75-4256-ad3b-14a163d9756f.png)
+
+
+
 #### Private 
 
 ![image](https://user-images.githubusercontent.com/104793540/187683242-28fb6117-be28-4f6d-8c02-071e45da3084.png)
@@ -123,7 +128,6 @@ associate only private subnet with this route table
 ![image](https://user-images.githubusercontent.com/104793540/187683909-ee668cea-1520-481a-b94c-0d415f913cc3.png)
 ![image](https://user-images.githubusercontent.com/104793540/187683980-b753bb4a-d960-4337-af27-7f4ce42b5c44.png)
 
-editing rules:
+launch db in private subnet:
 
 
-### Test by deploying app ami 
