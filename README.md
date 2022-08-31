@@ -87,6 +87,8 @@ REF: https://medium.com/awesome-cloud/aws-difference-between-security-groups-and
 
 ### Step 3.2 Create priavte subnet (CIDR: 10.0.1.0/24)
 
+![image](https://user-images.githubusercontent.com/104793540/187682649-fdf87a18-8310-4b24-b09e-5181f057bc02.png)
+![image](https://user-images.githubusercontent.com/104793540/187682688-e181cc52-fa9d-4295-b209-2f788fa4ec26.png)
 
 ### Step 4 Create Route Table (& edit rules to add SN)
 Public 
@@ -106,5 +108,12 @@ global and local
 
 Private 
 
+![image](https://user-images.githubusercontent.com/104793540/187683242-28fb6117-be28-4f6d-8c02-071e45da3084.png)
+![image](https://user-images.githubusercontent.com/104793540/187683317-34dedcdc-6ca3-433a-bd3b-953d2923d790.png)
+
+associate only private subnet with this route table 
+
+![image](https://user-images.githubusercontent.com/104793540/187683909-ee668cea-1520-481a-b94c-0d415f913cc3.png)
+![image](https://user-images.githubusercontent.com/104793540/187683980-b753bb4a-d960-4337-af27-7f4ce42b5c44.png)
 
 ### Test by deploying app ami 
