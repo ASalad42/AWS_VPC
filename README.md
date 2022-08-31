@@ -61,6 +61,7 @@ stateless vs stateful
 
 REF: https://medium.com/awesome-cloud/aws-difference-between-security-groups-and-network-acls-adc632ea29ae - AWS: Difference between Security Groups and Network Access Control List (NACL)
 
+## Building Infrastructure
 
 ![image](https://user-images.githubusercontent.com/104793540/187665698-67e4fdbc-475d-4fe8-963c-e4c99659ea10.png)
 
