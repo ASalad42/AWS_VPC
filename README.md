@@ -107,11 +107,11 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/working-with-security-groups
 
 installing ig door into plot 
 
-![image](https://user-images.githubusercontent.com/104793540/187664056-c367cc56-b193-4740-a22d-cc123be29fa4.png)
+![image](https://user-images.githubusercontent.com/104793540/187708214-cb4bf469-9067-47e6-af2e-d193e212f954.png)
 
 global and local 
-
-![image](https://user-images.githubusercontent.com/104793540/187664171-e95fb000-8306-44c5-8932-58104e717a9f.png)
+make sure ig route is 0.0.0.0/0
+![image](https://user-images.githubusercontent.com/104793540/187707771-9f163f24-7814-40db-b5b4-10cf48c2802f.png)
 
 #### Private 
 
