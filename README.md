@@ -101,7 +101,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/working-with-security-groups
 
 ![image](https://user-images.githubusercontent.com/104793540/187719779-27fb1d9f-3ad4-4dac-be1e-30c851cb0e5f.png)
 
-debugging "The source needs to be a CIDR block or a Security Group ID.":
+##### debugging "The source needs to be a CIDR block or a Security Group ID.":
 - use cidr of your public subnet so any machine on public subnet can talk to db on port 27017
 - ![image](https://user-images.githubusercontent.com/104793540/187728881-9c774573-b8a1-4963-bbdb-7d210aef5450.png)
 ![image](https://user-images.githubusercontent.com/104793540/187734891-865852f4-8bfc-4353-aa91-354e648c63c5.png)
