@@ -4,7 +4,7 @@ A virtual private cloud (VPC) is a virtual network dedicated to your AWS account
 
 VPC with private and public subnets 
 
-![image](https://user-images.githubusercontent.com/104793540/187453805-a0c70218-f378-477b-8675-bb1659d49754.png)
+![image](https://user-images.githubusercontent.com/104793540/187638918-849ba0a6-101d-4f07-b10c-54960215ab40.png)
 
 https://docs.aws.amazon.com/vpc/latest/userguide/how-it-works.html - How Amazon VPC works
 https://docs.aws.amazon.com/vpc/latest/userguide/vpc-subnets-commands-example.html - Create an IPv4-enabled VPC and subnets using the AWS CLI
@@ -27,7 +27,7 @@ The NAT gateway - managed by AWS. simply create the NAT gateway, specify what su
 - NAT gateway takes request, goes via the Internet gateway, and download the appropriate software that's required, and send it back to the EC2 instance requesting it.
 
 
-#### What is CIDR block - how to create 1 - how create CIDR blocks form the VPC CIDR block?
+#### Classless Inter-Domain Routing (CIDR)
 Classless Inter-Domain Routing (CIDR) notation is a way of representing an IP address and its network mask. The format of these addresses is as follows:
 
 ![image](https://user-images.githubusercontent.com/104793540/187456957-38970773-bfb3-42bd-83ca-8b911905a309.png)
