@@ -61,26 +61,33 @@ stateless vs stateful
 
 REF: https://medium.com/awesome-cloud/aws-difference-between-security-groups-and-network-acls-adc632ea29ae - AWS: Difference between Security Groups and Network Access Control List (NACL)
 
-step 1
+### Step 1
 ![image](https://user-images.githubusercontent.com/104793540/187661089-c6fadabf-660d-4186-aa47-b408ac45ed57.png)
 ![image](https://user-images.githubusercontent.com/104793540/187661385-6d3e8c71-3e79-410c-a3cc-dcf255ca1e2e.png)
 
-step 2
+### Step 2
 ![image](https://user-images.githubusercontent.com/104793540/187661807-590ab766-1c49-4f68-8d87-c67f8393dbaf.png)
 ![image](https://user-images.githubusercontent.com/104793540/187661915-cf720a02-1847-4ebe-be87-bb5605477260.png)
 ![image](https://user-images.githubusercontent.com/104793540/187662130-ed314317-76af-49fb-ac1a-71d3fdfc00f7.png)
 ![image](https://user-images.githubusercontent.com/104793540/187662187-85737de6-ea8b-4499-8605-851f1273c5bf.png)
 ![image](https://user-images.githubusercontent.com/104793540/187662236-d85524cf-3b95-40dc-987f-efe1e42950bd.png)
 
-step 3
+### Step 3
 ![image](https://user-images.githubusercontent.com/104793540/187662447-45c74044-194a-4e59-b522-f15f569f3158.png)
 ![image](https://user-images.githubusercontent.com/104793540/187662924-4b525eb4-5b0b-4fe1-9d22-c1e627750090.png)
 ![image](https://user-images.githubusercontent.com/104793540/187663022-e4dc7e4b-86cc-4c07-9e54-76eba74dc470.png)
 
 
 
-step 4
+### Step 4
 ![image](https://user-images.githubusercontent.com/104793540/187663422-352e3350-bfe2-4e58-a74f-78d00034bc4f.png)
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/104793540/187663607-a7862d13-a6e3-434a-8f4f-f9ee45c8f8b7.png)
+![image](https://user-images.githubusercontent.com/104793540/187663767-55d49808-dada-4411-b900-f80a31af7115.png)
+![image](https://user-images.githubusercontent.com/104793540/187663863-809c474f-e1ab-4701-ae78-b8172c529d5c.png)
+installing ig door into plot 
+![image](https://user-images.githubusercontent.com/104793540/187664056-c367cc56-b193-4740-a22d-cc123be29fa4.png)
+global and local 
+![image](https://user-images.githubusercontent.com/104793540/187664171-e95fb000-8306-44c5-8932-58104e717a9f.png)
+
 
 
