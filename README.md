@@ -85,7 +85,7 @@ REF: https://medium.com/awesome-cloud/aws-difference-between-security-groups-and
 ![image](https://user-images.githubusercontent.com/104793540/187662924-4b525eb4-5b0b-4fe1-9d22-c1e627750090.png)
 ![image](https://user-images.githubusercontent.com/104793540/187663022-e4dc7e4b-86cc-4c07-9e54-76eba74dc470.png)
 
-#### security groups with required rules for public subnet to access db
+#### app security group
 ![image](https://user-images.githubusercontent.com/104793540/187686814-e3ee7cbb-d715-45dc-8039-9d1339f084ed.png)
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/working-with-security-groups.html - Work with security groups
 
@@ -96,6 +96,14 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/working-with-security-groups
 
 ![image](https://user-images.githubusercontent.com/104793540/187682649-fdf87a18-8310-4b24-b09e-5181f057bc02.png)
 ![image](https://user-images.githubusercontent.com/104793540/187682688-e181cc52-fa9d-4295-b209-2f788fa4ec26.png)
+
+#### DB security group
+
+![image](https://user-images.githubusercontent.com/104793540/187719779-27fb1d9f-3ad4-4dac-be1e-30c851cb0e5f.png)
+
+debugging "The source needs to be a CIDR block or a Security Group ID.":
+- use cidr of your public subnet so any machine on public subnet can talk to db on port 27017
+- ![image](https://user-images.githubusercontent.com/104793540/187728881-9c774573-b8a1-4963-bbdb-7d210aef5450.png)
 
 ### Step 4 Create Route Table (& edit rules to add SN)
 #### Public 
@@ -115,6 +123,7 @@ make sure ig route is 0.0.0.0/0
 
 launched app in public subnet:
 - ami with npmservice 
+
 ![image](https://user-images.githubusercontent.com/104793540/187709974-374b65f4-1e75-4256-ad3b-14a163d9756f.png)
 ![image](https://user-images.githubusercontent.com/104793540/187713026-fb01017c-11ff-4e97-8e9e-300573095a95.png)
 ![image](https://user-images.githubusercontent.com/104793540/187712953-65ff6c39-69f3-42d2-ade4-0c4c9fc30db8.png)
