@@ -43,3 +43,20 @@ Classless Inter-Domain Routing (CIDR) notation is a way of representing an IP ad
 ##### Route tables
 - A route table contains a set of rules, called routes, that are used to determine where network traffic from your VPC is directed. You can explicitly associate a subnet with a particular route table. Otherwise, the subnet is implicitly associated with the main route table.
 - Each route in a route table specifies the range of IP addresses where you want the traffic to go (the destination) and the gateway, network interface, or connection through which to send the traffic (the target).
+
+
+NACL vs Security group 
+- Security group is the firewall of EC2 Instances.
+- Network ACL is the firewall of the VPC Subnets.
+- Security groups are tied to an instance whereas Network ACLs are tied to the subnet.
+- Network ACLs are applicable at the subnet level, so any instance in the subnet with an associated NACL will follow rules of NACL.
+![image](https://user-images.githubusercontent.com/104793540/187655034-8d3d1a12-d97e-43b8-aaed-a211707b61ce.png)
+
+stateless vs stateful 
+- **Security groups are stateful**. This means any changes applied to an incoming rule will be automatically applied to the outgoing rule. e.g. If you allow an incoming port 80, the outgoing port 80 will be automatically opened.
+- **Network ACLs are stateless**. This means any changes applied to an incoming rule will not be applied to the outgoing rule. e.g. If you allow an incoming port 80, you would also need to apply the rule for outgoing traffic.
+
+- Occurrence: Subnet can have only one NACL, whereas Instance can have multiple Security groups.
+- Rule Destination: **Security group rule** allow CIDR, IP, Security group as destination but **Network ACL rule** only allow CIDR as destination.
+
+REF: https://medium.com/awesome-cloud/aws-difference-between-security-groups-and-network-acls-adc632ea29ae - AWS: Difference between Security Groups and Network Access Control List (NACL)
