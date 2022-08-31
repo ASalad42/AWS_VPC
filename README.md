@@ -23,7 +23,7 @@ Follow the steps in this section to create a VPC. When you create a VPC, you hav
 - VPC only: Creates only a VPC without any additional resources like subnets or NAT gateways within the VPC.
 
 The NAT gateway - managed by AWS. simply create the NAT gateway, specify what subnet it should reside in, and associate an Elastic IP address, and AWS will manage all other configuration.
-- A NAT gateway sits within the public subnet.because it sits within the public subnet, it has a route out to the Internet gateway, and to the Internet.
+- db subnet is private. So it has no access to the Internet gateway, and therefore the Internet, so how to download? A NAT gateway sits within the public subnet.because it sits within the public subnet, it has a route out to the Internet gateway, and to the Internet.
 - NAT gateway takes request, goes via the Internet gateway, and download the appropriate software that's required, and send it back to the EC2 instance requesting it.
 
 
