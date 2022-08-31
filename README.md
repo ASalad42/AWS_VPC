@@ -92,7 +92,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/working-with-security-groups
 ![image](https://user-images.githubusercontent.com/104793540/187691760-3bb18ec3-8165-47d8-ace2-6809bde45efb.png)
 
 
-### Step 3.2 Create priavte subnet (CIDR: 10.0.1.0/24)
+### Step 3.2 Create private subnet (CIDR: 10.0.1.0/24)
 
 ![image](https://user-images.githubusercontent.com/104793540/187682649-fdf87a18-8310-4b24-b09e-5181f057bc02.png)
 ![image](https://user-images.githubusercontent.com/104793540/187682688-e181cc52-fa9d-4295-b209-2f788fa4ec26.png)
@@ -142,12 +142,12 @@ associate only private subnet with this route table
 
 launch db in private subnet:
 - use private ip of db ec2 in DB_HOST
-- sudo nano .bashrc 
-- export DB_HOST=mongodb://10.0.12.127:27017/posts
-- printenv DB_HOST
+- `sudo nano .bashrc`
+- `export DB_HOST=mongodb://10.0.12.127:27017/posts`
+- `printenv DB_HOST`
 
 debugging:
-- ps aux 
+- `ps aux` 
 - `sudo kill -9 2246`
 - keep changing number at the end 
 - ![image](https://user-images.githubusercontent.com/104793540/187732631-7c4ea0ff-a50c-4eec-a3ff-acc42b1e9a48.png)
