@@ -85,11 +85,13 @@ REF: https://medium.com/awesome-cloud/aws-difference-between-security-groups-and
 ![image](https://user-images.githubusercontent.com/104793540/187662924-4b525eb4-5b0b-4fe1-9d22-c1e627750090.png)
 ![image](https://user-images.githubusercontent.com/104793540/187663022-e4dc7e4b-86cc-4c07-9e54-76eba74dc470.png)
 
-#### 
-security groups with required rules for public subnet to access db
+#### security groups with required rules for public subnet to access db
 ![image](https://user-images.githubusercontent.com/104793540/187686814-e3ee7cbb-d715-45dc-8039-9d1339f084ed.png)
-
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/working-with-security-groups.html - Work with security groups
+
+![image](https://user-images.githubusercontent.com/104793540/187691760-3bb18ec3-8165-47d8-ace2-6809bde45efb.png)
+
+
 ### Step 3.2 Create priavte subnet (CIDR: 10.0.1.0/24)
 
 ![image](https://user-images.githubusercontent.com/104793540/187682649-fdf87a18-8310-4b24-b09e-5181f057bc02.png)
