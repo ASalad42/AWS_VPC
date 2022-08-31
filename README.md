@@ -114,8 +114,10 @@ make sure ig route is 0.0.0.0/0
 ![image](https://user-images.githubusercontent.com/104793540/187707771-9f163f24-7814-40db-b5b4-10cf48c2802f.png)
 
 launched app in public subnet:
+- ami with npmservice 
 ![image](https://user-images.githubusercontent.com/104793540/187709974-374b65f4-1e75-4256-ad3b-14a163d9756f.png)
-
+![image](https://user-images.githubusercontent.com/104793540/187713026-fb01017c-11ff-4e97-8e9e-300573095a95.png)
+![image](https://user-images.githubusercontent.com/104793540/187712953-65ff6c39-69f3-42d2-ade4-0c4c9fc30db8.png)
 
 
 #### Private 
