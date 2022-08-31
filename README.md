@@ -1,4 +1,4 @@
-# Creating AWS VPC Infastructure 
+# Creating AWS VPC Infrastructure
 
 A virtual private cloud (VPC) is a virtual network dedicated to your AWS account. Subnets are a range of IP addresses in your VPC
 
