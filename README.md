@@ -146,7 +146,7 @@ launch db in private subnet:
 - `export DB_HOST=mongodb://10.0.12.127:27017/posts`
 - `printenv DB_HOST`
 
-debugging:
+##### debugging:
 - `ps aux` 
 - `sudo kill -9 2246`
 - keep changing number at the end 
